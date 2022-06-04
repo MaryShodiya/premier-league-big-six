@@ -65,3 +65,4 @@ app.get('/api/', (req, res) => {
 app.listen(process.env.PORT || PORT, () => {
     console.log('listening on port ' + PORT )
 })
+.catch(error => console.error(error))
